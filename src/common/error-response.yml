@@ -1,0 +1,44 @@
+---
+strictProperties: true
+
+description: Error object response
+
+type:
+    - object
+
+required:
+    - error_summary
+    - error
+
+properties:
+    error_summary:
+        description: The summary reason error
+        type: string
+
+    error:
+        description: error object
+
+        type: object
+
+        required:
+            - code
+            - message
+            - resource
+            - requestId
+
+        properties:
+            code:
+                description: The code of the error object
+                type: string
+
+            message:
+                description: The message of the error object
+                type: string
+
+            resource:
+                description: The resource of the error object
+                type: string
+
+            requestId:
+                description: The request id
+                type: string

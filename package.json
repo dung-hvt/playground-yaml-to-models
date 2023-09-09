@@ -1,0 +1,31 @@
+{
+  "name": "yaml-to-models",
+  "version": "1.0.0",
+  "description": "Tool generator from multiple yaml files to DTO (Restful API Request/Response)",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "dung-hvt",
+  "private": false,
+  "scripts": {
+    "lint": "eslint --fix 'src/**/*.ts'",
+    "format": "prettier --write 'src/**/*.{ts,js,yaml}'"
+  },
+  "devDependencies": {
+    "@types/dot": "^1.1.5",
+    "@types/js-yaml": "^4.0.5",
+    "@types/json-schema": "^7.0.12",
+    "@typescript-eslint/eslint-plugin": "^6.6.0",
+    "@typescript-eslint/parser": "^6.6.0",
+    "dot": "^1.1.3",
+    "eslint": "^8.49.0",
+    "js-yaml": "^4.1.0",
+    "json-schema": "^0.4.0",
+    "prettier": "^3.0.3",
+    "quicktype": "^23.0.75",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@types/node": "^20.6.0"
+  }
+}

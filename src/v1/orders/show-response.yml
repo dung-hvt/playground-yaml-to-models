@@ -1,0 +1,18 @@
+strictProperties: true
+
+description: Definition of show order response.
+
+type:
+    - object
+
+required:
+    - user
+    - order
+
+properties:
+    user:
+        description: The object of user
+        $ref: '/v1-object-user'
+    order:
+        description: The object of order information
+        $ref: '/v1-object-order'

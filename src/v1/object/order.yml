@@ -1,0 +1,33 @@
+strictProperties: true
+
+description: Order info object
+
+type:
+    - object
+
+required:
+    - id
+    - userId
+    - productId
+    - price
+
+properties:
+    id:
+        description: The id of order
+        type: string
+
+    userId:
+        description: The id of user
+        type: string
+
+    productId:
+        description: The id of product
+        type: string
+
+    price:
+        description: The price of the order
+        type: string
+
+    status:
+        description: The status of the order
+        $ref: '/v1-enum-order-status'

@@ -1,0 +1,10 @@
+---
+strictProperties: true
+
+description: Enum of order
+
+type: string
+enum:
+    - pending
+    - confirmed
+    - completed
