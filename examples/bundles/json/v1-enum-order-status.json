@@ -1,0 +1,1 @@
+{ "$schema" : "http://json-schema.org/draft-04/schema#", "type": ["object"], "properties": { "v1-enum-order-status": { "$ref": "#/definitions/v1-enum-order-status" } }, "definitions": { "v1-enum-order-status": {"strictProperties":true,"description":"Enum of order","type":"string","enum":["pending","confirmed","completed"],"title":"v1 enum order status"} } }
